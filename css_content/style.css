@@ -1,0 +1,117 @@
+
+.site_header
+{
+   color: white;
+   display: flex;
+}
+ul
+{
+    display:flex;
+}
+nav
+{
+    display: flex;
+}
+li
+{
+   list-style-type: None;
+   margin-left: 25px;
+   margin-right: 25px;
+   font-weight: bold;
+   cursor: pointer;
+   
+   
+}
+.footerlink 
+{   position: relative;
+    bottom: 0.6em;
+    
+}
+.headerlink 
+{
+    text-decoration: none;
+    color: white;
+    box-shadow: -4px -4px 11px #c8c2c2a2,
+    4px 4px 9px rgba(147, 149, 151, 0.871);
+    border-radius: 1.1em;
+    padding: 0.8em;
+}
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #222;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("https://source.unsplash.com/random/?night");
+    font-size: 120%;
+    text-transform: capitalise;
+}
+
+h1.temp  
+{ 
+    margin: 0;
+    font-weight: bold;
+    font-size:1.4em;
+}
+
+.card {
+    background: #000000d0;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    margin: 0;
+    color: white
+    
+}
+
+.search
+{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+button
+{
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 2.5em;
+    width: 2.5em;
+    transition: 0.2s ease-in-out;
+}
+
+input.search-bar  
+{
+    border: none;
+    outline: none;
+    padding: 1em;
+    border-radius: 50%;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 120%;
+    width: (100% -80px);
+}
+div.temp
+{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+button:hover
+{
+    background: #7c7c7c6b;
+    cursor: pointer;
+
+}
+img .icon
+{
+   height: 18px;
+}
+#site_name
+{
+    margin-top:10px;
+    margin-left: 8px;
+}
