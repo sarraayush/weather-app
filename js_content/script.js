@@ -14,7 +14,7 @@ let weather =
             
         },
         displayweather: function(data) {
-            if(data.cod == 404)
+            if(data.cod == "404")
             {
                window.location.href="../html_page/error404.html";
             }
