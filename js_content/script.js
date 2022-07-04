@@ -16,7 +16,7 @@ let weather =
         displayweather: function(data) {
             if(data.cod == "404")
             {
-               window.location.href="../html_page/error404.html";
+               window.location.href="https://sarraayush.github.io/html_page/error404.html";
             }
 
             const {name} = data;
