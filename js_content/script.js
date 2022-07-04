@@ -14,7 +14,11 @@ let weather =
             
         },
         displayweather: function(data) {
-            
+            if(data.cod == 404)
+            {
+               window.location.href="../html_page/error404.html";
+            }
+
             const {name} = data;
             const {icon , description} = data.weather[0];
             const {temp , humidity} = data.main;
