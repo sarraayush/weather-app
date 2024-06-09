@@ -1,5 +1,5 @@
 <H1>About App</H1>
-<p>This web application shows the real time weather of city you want.</p>
+<p>This web application uses API Integration and  shows the real time weather of city.</p>
 <H1>Live Link </H1>
 <a href="https://sarraayush.github.io/weather-app/html_page/index.html#">Weather App</a>
 <H1>Tech Stack/Skills</H1>
